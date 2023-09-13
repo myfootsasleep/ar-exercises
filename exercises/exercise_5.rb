@@ -14,3 +14,5 @@ average_sum = Store.sum(:annual_revenue)/Store.count()
 puts average_sum
 stores_over_1m = Store.where('annual_revenue >= ?', 1_000_000).count
 puts stores_over_1m
+
+puts "#{@store1} from blah"

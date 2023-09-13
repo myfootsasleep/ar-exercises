@@ -5,8 +5,8 @@ require_relative './exercise_2'
 puts "Exercise 3"
 puts "----------"
 
-@stores3 = Store.find_by(id: 3)
-@stores3.destroy
+@store3 = Store.find_by(id: 3)
+@store3.destroy
 
 store_count = Store.count
 
